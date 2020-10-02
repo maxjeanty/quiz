@@ -1,0 +1,54 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>quiz</title>
+<link href ="styles.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Lato:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+<script src = "script.js"></script>
+
+</head>
+
+
+<body>
+<h1>Let's play a game </h1>
+<h1 class="time"></h1>
+
+
+
+
+<form id = "quiz" name = "quiz">
+    
+<input id = "button" type = "button" value = "are you ready for this quiz?" onclick = "setTime();">
+
+
+<p class = "questions">What is the tag that is used as a container for HTML elements?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">What does HTML stand for?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Hyper Text Markup Language"> Hyper Text Markup Language<br>
+<input type = "radio" id = "mc" name = "question2" value = "Hotmail"> Hotmail<br>
+
+<p class = "questions">functions inside objects are knows as:</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Methods"> Methods<br>
+<input type = "radio" id = "mc" name = "question3" value = "Method Man"> Method Man<br>
+
+
+<input id = "button" type = "button" value = "are you sure?" onclick = "check();">
+
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</body>
+</html>
+
+
+
