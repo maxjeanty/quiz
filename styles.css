@@ -32,7 +32,7 @@ input {
 }
 
 
-#button {
+#button1, #button2  {
 	background: green;
 	border: none;
 	border-radius: 5px;
@@ -43,9 +43,16 @@ input {
 	margin-top: 15px;
 }
 
+#button2 {
+	background: rgb(66, 0, 128);
+	
+	border-radius: 40px;
+	
+}
 
 
-#button:hover {
+#button1:hover, #button2:hover
+ {
 	background: white;
 	border: 1px solid green;
 	color: black;
@@ -73,6 +80,6 @@ input {
 
 
 
-#mc {
+#mc1, #mc2, #mc3, #mc4 {
 	display: inline;
 } 
